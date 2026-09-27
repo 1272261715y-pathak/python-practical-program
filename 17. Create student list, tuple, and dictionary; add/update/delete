@@ -1,0 +1,10 @@
+students_list = ["Amit", "Rahul", "Priya", "Sneha"]
+students_tuple = ("Amit", "Rahul", "Priya", "Sneha")
+students = {101: "Amit", 102: "Rahul", 103: "Priya", 104: "Sneha"}
+print(students_list)
+print(students_tuple)
+print("Original:", students)
+students[105] = "Neha"       # Add
+students[102] = "Rohan"     # Update
+del students[104]            # Delete
+print("Updated:", students)
