@@ -1,0 +1,2 @@
+d = {"marks1": 23, "marks2": 123, "marks3": 43, "marks4": 13, "marks5": 39}
+print("Mean:", sum(d.values()) / len(d))
