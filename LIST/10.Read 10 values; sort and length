@@ -1,0 +1,5 @@
+numbers = [int(input("Enter value: ")) for _ in range(10)]
+print("Ascending:", sorted(numbers))
+numbers.sort(reverse=True)
+print("Descending:", numbers)
+print("Length:", len(numbers))
