@@ -1,0 +1,6 @@
+numbers = (10, 20, 30, 40, 50)
+x = int(input("Element: "))
+if x in numbers:
+    print(numbers.index(x))
+else:
+    print("Element not found")
