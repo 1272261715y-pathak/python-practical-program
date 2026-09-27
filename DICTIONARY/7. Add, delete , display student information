@@ -1,0 +1,5 @@
+students = {101: "Amit", 102: "Rahul", 103: "Priya", 104: "Sneha", 105: "Neha"}
+students[106] = "Rohan"
+del students[103]
+for roll, name in students.items():
+    print("Roll:", roll, "Name:", name)
