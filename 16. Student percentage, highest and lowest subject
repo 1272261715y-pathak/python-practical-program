@@ -1,0 +1,10 @@
+name = input("Student name: ")
+roll = input("Roll number: ")
+marks = {
+    "Maths": float(input("Maths marks: ")),
+    "Physics": float(input("Physics marks: ")),
+    "Chemistry": float(input("Chemistry marks: "))}
+percentage = sum(marks.values()) / 3
+print("Name:", name, "\nRoll:", roll, "\nPercentage:", percentage)
+print("Highest:", max(marks, key=marks.get))
+print("Lowest:", min(marks, key=marks.get))
