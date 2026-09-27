@@ -1,0 +1,10 @@
+print("Student Name:")
+"""
+Address:
+Contact_No:
+Mother Tongue:
+"""
+print("School_Name:")
+print("Year:")
+print("Panel:")
+print("Roll_No:")
