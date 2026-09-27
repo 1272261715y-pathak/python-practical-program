@@ -1,0 +1,5 @@
+numbers = [10, 20, 30, 20, 40]
+x = int(input("Value to remove: "))
+if x in numbers:
+    numbers.remove(x)
+print(numbers)
