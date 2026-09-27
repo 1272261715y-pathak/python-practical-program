@@ -1,0 +1,5 @@
+d = {"name": "ABC", "panel": "B", "rollno": 34}
+keys_list = list(d.keys())
+values_list = list(d.values())
+print(keys_list)
+print(values_list)
