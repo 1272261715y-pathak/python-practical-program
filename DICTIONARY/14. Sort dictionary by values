@@ -1,0 +1,5 @@
+d = {"Amit": 85, "Rahul": 72, "Priya": 95, "Sneha": 80}
+ascending = dict(sorted(d.items(), key=lambda item: item[1]))
+descending = dict(sorted(d.items(), key=lambda item: item[1], reverse=True))
+print("Ascending:", ascending)
+print("Descending:", descending)
