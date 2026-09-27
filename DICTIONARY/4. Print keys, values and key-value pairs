@@ -1,0 +1,5 @@
+d = {101: "Amit", 102: "Rahul", 103: "Priya"}
+print("Keys:", list(d.keys()))
+print("Values:", list(d.values()))
+for key, value in d.items():
+    print(key, value)
