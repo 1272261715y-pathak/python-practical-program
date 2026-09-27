@@ -1,0 +1,2 @@
+d = {"name": "ABC", "panel": "B", "rollno": 34, "marks": [65, 87, 67, 94]}
+print("Sorted keys:", sorted(d))
