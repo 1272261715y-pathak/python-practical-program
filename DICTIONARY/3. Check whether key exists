@@ -1,0 +1,3 @@
+my_dict = {101: "Amit", 102: "Rahul", 103: "Priya"}
+key = int(input("Key to search: "))
+print("Key exists" if key in my_dict else "Key does not exist")
