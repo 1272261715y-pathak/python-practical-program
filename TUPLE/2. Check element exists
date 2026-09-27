@@ -1,0 +1,3 @@
+numbers = (10, 20, 30, 40, 50)
+x = int(input("Element to search: "))
+print("Found" if x in numbers else "Not found")
