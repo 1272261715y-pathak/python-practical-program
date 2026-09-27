@@ -1,0 +1,4 @@
+items = {10, 20, 30, 40}
+x = int(input("Item to remove: "))
+items.discard(x)  # no error if missing
+print(items)
