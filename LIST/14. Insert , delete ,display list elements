@@ -1,0 +1,8 @@
+items = ["apple", "banana", "cherry", "watermelon"]
+print("Original:", items)
+items.insert(int(input("Insert index: ")), input("Item to insert: "))
+print("After insert:", items)
+item = input("Item to delete: ")
+if item in items:
+    items.remove(item)
+print("After delete:", items)
