@@ -1,0 +1,11 @@
+numbers = [int(input("Enter value: ")) for _ in range(20)]
+print("List:", numbers)
+seen = set()
+for i, value in enumerate(numbers):
+    if numbers.count(value) > 1 and value not in seen:
+        print(value, "indexes:", [j for j, v in enumerate(numbers) if v == value])
+        seen.add(value)
+print("Even:", sum(x % 2 == 0 for x in numbers))
+print("Odd:", sum(x % 2 != 0 for x in numbers))
+print("Positive:", sum(x > 0 for x in numbers))
+print("Negative:", sum(x < 0 for x in numbers))
