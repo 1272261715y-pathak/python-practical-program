@@ -1,0 +1,3 @@
+keys = ["name", "panel", "rollno"]
+values = ["ABC", "B", 34]
+print(dict(zip(keys, values)))
