@@ -1,0 +1,5 @@
+numbers = [10, 20, 30, 40, 50]
+i = int(input("Index to remove: "))
+if -len(numbers) <= i < len(numbers):
+    numbers.pop(i)
+print(numbers)
