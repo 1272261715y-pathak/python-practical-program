@@ -1,0 +1,6 @@
+numbers = (10, 20, 30, 40, 50)
+if len(numbers) >= 2:
+    swapped = (numbers[-1],) + numbers[1:-1] + (numbers[0],)
+    print(swapped)
+else:
+    print(numbers)
